@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build Server') {
       steps {
-        build 'Starborne Pipeline - Compile Server'
+        echo 'Hello ${env.BRANCH_NAME}'
       }
     }
   }
