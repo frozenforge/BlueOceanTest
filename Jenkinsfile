@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build Server') {
       steps {
-        echo 'Hello ${env.BRANCH_NAME}'
+        echo '"Hello ${env.BRANCH_NAME}"'
       }
     }
   }
